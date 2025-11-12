@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="mainPane" prefHeight="500.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button fx:id="btn0" alignment="CENTER" layoutX="184.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="0" textAlignment="CENTER" />
+      <Button fx:id="btnClr" alignment="CENTER" layoutX="124.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="CLR" textAlignment="CENTER" />
+      <Button fx:id="btnEnt" alignment="CENTER" layoutX="244.0" layoutY="420.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="ENT" textAlignment="CENTER" />
+      <Button fx:id="btn1" alignment="CENTER" layoutX="124.0" layoutY="369.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="1" textAlignment="CENTER" />
+      <Button fx:id="btn2" alignment="CENTER" layoutX="184.0" layoutY="369.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="2" textAlignment="CENTER" />
+      <Button fx:id="btn3" alignment="CENTER" layoutX="244.0" layoutY="369.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="3" textAlignment="CENTER" />
+      <Button fx:id="btn4" alignment="CENTER" layoutX="124.0" layoutY="318.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="4" textAlignment="CENTER" />
+      <Button fx:id="btn5" alignment="CENTER" layoutX="184.0" layoutY="318.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="5" textAlignment="CENTER" />
+      <Button fx:id="btn6" alignment="CENTER" layoutX="244.0" layoutY="318.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="6" textAlignment="CENTER" />
+      <Button fx:id="btn7" alignment="CENTER" layoutX="124.0" layoutY="267.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="7" textAlignment="CENTER" />
+      <Button fx:id="btn8" alignment="CENTER" layoutX="184.0" layoutY="267.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="8" textAlignment="CENTER" />
+      <Button fx:id="btn9" alignment="CENTER" layoutX="244.0" layoutY="267.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="9" textAlignment="CENTER" />
+      <TextField fx:id="userInput" layoutX="89.0" layoutY="69.0" prefHeight="25.0" prefWidth="250.0" promptText="Enter Input" />
+      <TextArea fx:id="userResult" editable="false" layoutX="89.0" layoutY="100.0" prefHeight="150.0" prefWidth="250.0" wrapText="true" />
+      <Button fx:id="withdrawBtn" alignment="CENTER" layoutX="29.0" layoutY="100.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="W/D" textAlignment="CENTER" />
+      <Button fx:id="depositBtn" alignment="CENTER" layoutX="29.0" layoutY="150.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="DEP" textAlignment="CENTER" />
+      <Button fx:id="balanceBtn" alignment="CENTER" layoutX="29.0" layoutY="200.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="BAL" textAlignment="CENTER" />
+      <Button fx:id="exitBtn" alignment="CENTER" layoutX="339.0" layoutY="200.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="EXIT" textAlignment="CENTER" />
+      <Button fx:id="addAccountBtn" alignment="CENTER" layoutX="339.0" layoutY="100.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="ADD" textAlignment="CENTER" />
+      <Button fx:id="logoutBtn" alignment="CENTER" layoutX="339.0" layoutY="150.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="50.0" prefWidth="60.0" text="L/O" textAlignment="CENTER" />
+      <Label fx:id="label1" alignment="CENTER" contentDisplay="CENTER" prefHeight="50.0" prefWidth="420.0" text="Free Cash Withdrawls" />
+   </children>
+</AnchorPane>

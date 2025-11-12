@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: #222423;
+}
+
+.button {
+    -fx-font-size: 24;
+    -fx-font-alignment: center;
+    -fx-font-weight: bold;
+}
+
+#label1 {
+    -fx-font-size: 36;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#btnClr {
+    -fx-font-size: 18;
+    -fx-background-color: yellow;
+}
+
+#btnEnt {
+    -fx-font-size: 18;
+    -fx-background-color: green;
+}
+
+#withdrawBtn, #depositBtn, #balanceBtn, #addAccountBtn, #logoutBtn, #exitBtn {
+    -fx-font-size: 14;
+}
+
+#exitBtn {
+    -fx-background-color: red;
+}
+
+#userInput, #userResult, .content{
+    -fx-background-color: darkgrey;
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -fx-text-fill: green;
+    -fx-prompt-text-fill: green;
+    -fx-font-family: "Courier New";
+    -fx-font-size: 14;
+    -fx-overflow: auto;
+}
